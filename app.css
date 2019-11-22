@@ -228,3 +228,76 @@ footer{
 .hidde-section{
     display: none;
   }
+
+.principal-detail{
+    margin-top: 10vh;
+}
+
+.item-detail h2{
+   color: #0091B0;
+   font-weight: 600;
+   padding-top: 20px;
+   margin-bottom: 5px;
+   margin-left: 10px;
+}
+
+.image-detail{
+    float: left;
+    margin-left: 15px;
+    width: 25vw;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.rating-detail{
+    width: 30vw;
+    float: left;
+    margin-right: 7px;
+    margin-top: 10px;
+}
+
+.number-rating-detail{
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.tel-route{
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.detail-telephone{
+    width: 40vw;
+    float: left;
+    text-align: center;
+}
+
+.detail-route{
+    width: 40vw;
+    text-align: center;
+}
+
+table{
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-update{
+    background-color: #0091B0;
+    font-size: 16px;
+    font-weight: 600;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    border-radius: 5px;
+    height: 5vh;
+    color: #FFFFFF;
+    padding: 3px;
+    width: 55vw;
+    text-align: center;
+}
+
+/* .prices-container{
+    text-align: center;
+} */

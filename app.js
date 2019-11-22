@@ -113,3 +113,14 @@ const changeSection = () => {
     mapImage.classList.remove("hidde-section");
 }
   buttonChangeSection.addEventListener('click', changeSection);
+
+  const pemexItem = document.getElementById("pemex-item");
+  const itemDetail = document.getElementById("item-detail");
+
+  const showDetail = () => {
+    listSection.classList.add("hidde-section");
+    itemDetail.classList.remove("hidde-section");
+    // listImage.classList.add("hidde-section");
+    // mapImage.classList.remove("hidde-section");
+  }
+    pemexItem.addEventListener('click', showDetail);
