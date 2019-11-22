@@ -62,11 +62,11 @@ const buttonChangeSection = document.getElementById("button-change");
 const mapImage = document.getElementById("map-image");
 const listImage = document.getElementById("list-image");
 
-const changeSection = () => {
+const changeSectionMap = () => {
     mapSection.classList.add("hidde-section");
     listSection.classList.remove("hidde-section");
     listImage.classList.add("hidde-section");
     mapImage.classList.remove("hidde-section");
 }
 
-  buttonChangeSection.addEventListener('click', changeSection);
+  buttonChangeSection.addEventListener('click', changeSectionMap);
